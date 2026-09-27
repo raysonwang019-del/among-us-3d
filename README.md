@@ -2,6 +2,8 @@
 
 A single-player, browser-based 3D take on *Among Us*, built with [Three.js](https://threejs.org/). Explore a Skeld-style ship with AI crewmates, complete tasks, report bodies, vote out suspects — or play as the Impostor and hunt the crew yourself.
 
+**▶ [Play now in your browser](https://raysonwang019-del.github.io/among-us-3d/)** — no download or setup needed. Works on desktop (keyboard controls).
+
 No build step, no dependencies to install. Just static HTML + ES modules.
 
 ## Features
@@ -21,6 +23,8 @@ No build step, no dependencies to install. Just static HTML + ES modules.
 - **Tasks, bodies, meetings, and voting** — hold to complete tasks, report bodies to call an emergency meeting, and vote someone off.
 
 ## Running locally
+
+Only needed if you want to modify the game — to just play, use the link above.
 
 The game uses ES modules, so it must be served over HTTP (opening `index.html` directly via `file://` won't work). From the project folder:
 
