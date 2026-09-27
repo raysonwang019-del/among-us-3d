@@ -28,11 +28,19 @@ Only needed if you want to modify the game — to just play, use the link above.
 
 The game uses ES modules, so it must be served over HTTP (opening `index.html` directly via `file://` won't work). From the project folder:
 
+**macOS / Linux**
+
 ```bash
 python3 -m http.server 8321
 ```
 
-Then open <http://localhost:8321>. Any static file server works (`npx serve`, VS Code Live Server, etc.).
+**Windows** (PowerShell or Command Prompt) — Windows uses `python`, not `python3`:
+
+```powershell
+python -m http.server 8321
+```
+
+Then open <http://localhost:8321>. A `favicon.ico 404` line in the terminal is harmless. Any static file server works (`npx serve`, VS Code Live Server, etc.).
 
 Three.js is loaded from the unpkg CDN, so an internet connection is needed on first load.
 
